@@ -1,0 +1,51 @@
+#ticketPreview {
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="400" height="200" viewBox="0 0 400 200"><rect x="10" y="10" width="380" height="180" rx="15" ry="15" fill="white" stroke="%230d9488" stroke-width="2" stroke-dasharray="8,4"/><text x="200" y="50" text-anchor="middle" font-family="Arial" font-size="20" fill="%232d3748">Ticket Joré-Culep 2025</text></svg>');
+    background-size: cover;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.qr-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.qr-table th {
+    background-color: #3b82f6;
+    color: white;
+    padding: 12px;
+    text-align: left;
+}
+
+.qr-table tr:nth-child(even) {
+    background-color: #f3f4f6;
+}
+
+.qr-table tr:hover {
+    background-color: #e5e7eb;
+}
+
+.qr-table td {
+    padding: 12px;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.used-badge {
+    background-color: #ef4444;
+    color: white;
+    padding: 2px 8px;
+    border-radius: 12px;
+    font-size: 0.75rem;
+}
+
+.valid-badge {
+    background-color: #10b981;
+    color: white;
+    padding: 2px 8px;
+    border-radius: 12px;
+    font-size: 0.75rem;
+} 
